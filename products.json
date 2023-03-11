@@ -1,0 +1,58 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Majestic Predator",
+      "price": 79,
+      "image": "./img/product-img-1-sm.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Fearless Roamer",
+      "price": 49,
+      "image": "./img/product-img-2-sm.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Golden Mane",
+      "price": 99,
+      "image": "./img/product-img-3-sm.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Royal Beauty",
+      "price": 59,
+      "image": "./img/product-img-4-sm.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Courageous Hunter",
+      "price": 64,
+      "image": "./img/product-img-5-sm.jpg"
+    },
+    {
+      "id": "6",
+      "name": "Regal Intimidator",
+      "price": 29,
+      "image": "./img/product-img-6-sm.jpg"
+    },
+    {
+      "id": "7",
+      "name": "Fierce Paws",
+      "price": 88,
+      "image": "./img/product-img-7-sm.jpg"
+    },
+    {
+      "id": "8",
+      "name": "Wild Roarer",
+      "price": 62,
+      "image": "./img/product-img-8-sm.jpg"
+    },
+    {
+      "id": "9",
+      "name": "Pride Leaders",
+      "price": 94,
+      "image": "./img/product-img-9-sm.jpg"
+    }
+  ]
+}

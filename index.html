@@ -11,16 +11,15 @@
 </head>
 
 <body>
-
   <!-- Header -->
-  <header>
+  <header class="container">
     <!-- Navbar -->
-    <nav class="navbar">
-      <i class="fa-solid fa-2x fa-bars"></i>
+    <nav class="navbar ">
+      <!-- <i class="fa-solid  fa-bars"></i> -->
       <a href="#" class="logo-lion"></a>
       <div class="cart-btn">
-        <i class="fa-solid fa-2x fa-cart-shopping"></i>
-        <div class="cart-items">0</div>
+        <i class="fa-solid  fa-cart-shopping"></i>
+        <div class="cart-total-items">0</div>
       </div>
     </nav>
 
@@ -28,52 +27,31 @@
     <div class="hero">
       <div class="banner">
         <div class="logo-text"></div>
-        <button class="btn banner-btn">Shop now</button>
+        <a href="#products">
+          <button class="btn banner-btn">Shop now</button>
+        </a>
       </div>
     </div>
   </header>
 
   <!-- Section: Products -->
   <section id="products" class="container">
-    <div class="section-title">
-      <h2>Our Products</h2>
-    </div>
+    <h2 class="section-title">Bring Home the Roar</h2>
+    <p class="section-subtitle">Shop our collection of fierce lion wall art in stunning 22.5"x 42.5" frames.<br>Elevate
+      your
+      decor with the best selection of lion art prints online.</p>
     <div class="products-gallery">
-      <!-- Product -->
-      <article class="product">
-        <div class="product-img">
-          <div class="product-overlay">
-            <h3 class="product-name">Majestic Predator</h3>
-            <button class="btn add-btn" data-id="1">
-              <i class="fa-solid fa-cart-shopping"></i>
-              Add to Cart
-            </button>
-          </div>
-        </div>
-        <p class="price">$79</p>
-      </article>
+      <!-- Displaying with JavaScript -->
     </div>
   </section>
 
   <!-- Cart -->
   <div class="cart-overlay">
     <div class="cart">
-      <i class="fa-solid fa-2x fa-xmark"></i>
+      <i class="fa-solid  fa-xmark"></i>
       <h2 class="section-title">Shopping Cart</h2>
       <div class="cart-content">
-        <div class="cart-item">
-          <div class="cart-item-img"></div>
-          <div class="cart-item-desc">
-            <h3>Majestic Predator</h3>
-            <h4>$79</h4>
-            <i class="fa-solid fa-trash"></i>
-          </div>
-          <div class="cart-item-quantity">
-            <i class="fa-solid fa-angle-up"></i>
-            <p class="item-amount">1</p>
-            <i class="fa-solid fa-angle-down"></i>
-          </div>
-        </div>
+        <!-- Displaying with JavaScript -->
       </div>
       <div class="cart-footer">
         <h3>Your Total: $<span class="total">79</span></h3>
@@ -81,6 +59,15 @@
       </div>
     </div>
   </div>
+
+  <footer>
+    <div class="footer-content container">
+      <h2>King JavaScript</h2>
+      <a href="https://eugeneilin.dev/" target="_blank">
+        <p>EugeneIlin.dev</p>
+      </a>
+    </div>
+  </footer>
 
   <script src="app.js"></script>
 </body>

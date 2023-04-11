@@ -16,19 +16,17 @@ let currentCart = [];
 let addBtnsDOM = [];
 
 // Fetch products
-class Products {
-  async getProducts() {
-    try {
-      let result = await fetch('products.json');
-      let data = await result.json();
-      let products = data.products;
-      products = products.map((product) => {
-        return product;
-      });
-      return products;
-    } catch (err) {
-      console.log(err);
-    }
+async function getProducts() {
+  try {
+    let result = await fetch('products.json');
+    let data = await result.json();
+    let products = data.products;
+    products = products.map((product) => {
+      return product;
+    });
+    return products;
+  } catch (err) {
+    console.log(err);
   }
 }
 
@@ -229,14 +227,12 @@ class Storage {
 // App setup
 document.addEventListener('DOMContentLoaded', () => {
   const display = new Display();
-  const products = new Products();
 
   // Set up app
   display.setupApp();
 
   // Get Products
-  products
-    .getProducts()
+  getProducts()
     .then((products) => {
       display.displayProducts(products);
       Storage.saveProductsToStorage(products);
